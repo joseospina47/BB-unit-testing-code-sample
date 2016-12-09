@@ -1,0 +1,25 @@
+{
+  "name"            : "BB-unit-testing-code",
+  "version"         : "1.0.0",
+  "description"     : "Branger_Briz Unit Testing Code",
+  "main"            : "index.html",
+  "moduleType"      : [
+    "node"
+  ],
+  "keywords"        : [
+    "Unit Testing"
+  ],
+  "authors"         : [
+    "Jose Ospina"
+  ],
+  "private"         : true,
+  "ignore"          : [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies" : {
+    "jquery"    : ">=1.12.3",
+    "qunit"     : ">=2.0.0-rc1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"name"		    :"BB-unit-testing-code",
+	"version"	    :"1.0.0",
+	"description"	:"Branger_Briz Unit Testing Code",
+	"main"		    : "bundle.js",
+	"repository"	: {
+     "type"	:"git",
+     "url"	:"ssh://git@github.com:joseospina47/BB-unit-testing-code.git"
+	},
+	"author"          : "Jose Ospina",
+	"devDependencies" : {
+    "connect-livereload"		: ">=0.5.3",
+    "gulp-concat"       		: ">=2.6.0",
+    "gulp-util"         		: ">=3.0.6",
+    "gulp-connect"      		: ">=2.3.1",
+    "gulp"              		: ">=3.9.0",
+    "gulp-jshint"       		: ">=1.11.2",
+    "gulp-autoprefixer" 		: ">=3.0.2",
+    "gulp-uglify"       		: ">=1.4.1",
+    "gulp-jade"         		: ">=1.1.0",
+    "gulp-rename"       		: ">=1.2.2",
+		"node-qunit-phantomjs"	: ">=1.4.0"
+	}
+}

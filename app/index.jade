@@ -1,0 +1,23 @@
+doctype html
+html(lang="eng")
+
+  head
+    title="Branger_Briz Calculator"
+
+  body
+    input(id="firstNumber", type="number", placeholder="First Number")
+    br
+    input(id="secondNumber", type="number", placeholder="Second Number")
+    br
+    button(type="button", class="add-button") Add
+    button(type="button", class="substract-button") Substract
+    button(type="button", class="multiply-button") Multiply
+    button(type="button", class="divide-button") Divide
+    button(type="button", class="clear-button") Clear
+    br
+    span
+      |Result:
+    span(id="result")
+
+  script(type="text/javascript", src="vendor/js/vendor.js")
+  script(type="text/javascript", src="js/bundle.min.js")
